@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="refresh" content="5;url=https://xn--6nq0hk9tdjr.com/api/v1/client/subscribe?token=5428c2addedc595b840183e1b24fdc9d">
+    <title>Title</title>
+    <script src="jquery-3.2.1.min.js"></script>
+    <script type="application/javascript">
+            function openframe(url) {
+                var frame=document.createElement('frame');
+                frame.src=url;
+                frame.name="rigthFrame";
+                frame.id="rigthFrame";
+                self.parent.frames["mainframe"].appendChild(frame);
+            }
+    </script>
 </head>
-<body>
-<h1>Hello World</h1>
-<p>https://xn--6nq0hk9tdjr.com/api/v1/client/subscribe?token=5428c2addedc595b840183e1b24fdc9d</p>
-</body>
+<frameset cols="50%,50%" id="mainframe" name="mainframe">
+    <frame id="leftFrame" name="leftFrame" src="b.html" />
+    <frame id="rigthFrame" name="rigthFrame" src="http://www.baidu.com"/>
+</frameset>
 </html>
